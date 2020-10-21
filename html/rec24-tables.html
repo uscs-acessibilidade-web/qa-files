@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rec39</title>
+</head>
+<body>
+  <!-- Exemplo 1 -->
+  <table><caption>Demonstrativo do Patrimônio</caption><thead><tr><th>Tipos</th><th>Valores (R$)</th><th>Percentual</th></tr></thead><tfoot><tr><td>Total</td><td>110.740,22</td><td>100%</td></tr></tfoot><tbody><tr><td>Recursos Financeiro</td><td>56.879,63</td><td>51,36%</td></tr><tr><td>Bens Móveis</td><td>25.691,23</td><td>23,20%</td></tr><tr><td>Bens Imóveis</td><td>28.169,36</td><td>25,44%</td></tr></tbody></table>
+
+  <!-- Exemplo 2 -->
+  <table summary="..."><caption>Resultado do Concurso</caption><tr><th id="vaga">Vaga</th><th id="candidato">Nome do candidato</th><th id="basico">Prova de Conhecimento Básico</th><th id="especifico">Prova de Conhecimento Específico</th></tr><tr><td id="adm" rowspan="2">Técnico Administrativo</td><td id="PaulodaSilva">Paulo da Silva</td><td headers="adm basico PaulodaSilva">8</td><td headers="adm especifico PaulodaSilva">16</td></tr><tr><td id="PedroPontes">Pedro Pontes</td><td headers="adm basico PedroPontes">7</td><td headers="adm especifico PedroPontes">15</td></tr><tr><td id="inf">Técnico em Informática</td><td id="JoaoPereira">João Pereira</td><td headers="inf basico JoaoPereira">9</td><td headers="inf especifico JoaoPereira">17</td></tr></table>
+
+  <!-- Exemplo 3 -->
+  <table summary="Tabela de vendas de maçã e banana efetuadas no ano de 2010"><caption>Vendas 2010</caption><tr><th scope="col">Mês</th><th scope="colgroup" colspan="2">Rio Grande do Sul</th><th scope="colgroup" colspan="2">Santa Catarina</th></tr><tr><td>Janeiro</td><td scope="col">Maçã</td><td scope="col">Banana</td><td scope="col">Maçã</td><td scope="col">Banana</td></tr><tr><td>Feveiro</td><td>1000</td><td>1500</td><td>3000</td><td>1000</td></tr><tr><td>Março</td><td>2000</td><td>1500</td><td>3500</td><td>500</td></tr></table>
+
+  <!-- Exemplo 4 -->
+  <table summary="Tabela com resumo das despesas de transporte durante o mês de Agosto nas cidades de Porto Alegre e Florianópolis"><caption>Relatório de despesa de viagem</caption><tr><th></th><th id="alimentacao" axis="despesas">Alimentação</th><th id="hotel" axis="despesas">Hotel</th><th id="transporte" axis="despesas">Transporte</th></tr><tr><th id="poa"axis="localização" colspan="4">Porto Alegre</th></tr><tr><td id="data1" axis="data">25 de agosto de 2010</td><td headers="poa data1 alimentacao">R$ 37,74</td><td headers="poa data1 hotel">R$ 112,00</td><td headers="poa data1 transporte">R$ 45,00</td></tr><tr><td id="data2"axis="data">26 de agosto de 2010</td><td headers="poa data2 alimentacao">R$ 27,28</td><td headers="poa data2 hotel">R$ 112,00</td><td headers="poa data2 transporte">R$ 45,00</td></tr><tr><th id="subPoa">Subtotal</th><td headers="poa subPoa alimentacao">R$ 65,02</td><td headers="poa subPoa hotel">R$ 224,00</td><td headers="poa subPoa transporte">R$ 90,00</td></tr><tr><th id="floripa" axis="localização" colspan="4">Florianópolis</th></tr><tr><td id="data3" axis="data">27 de agosto de 2010</td><td headers="floripa data3 alimentacao">R$ 96,25</td><td headers="floripa data3 hotel">R$ 109,00</td><td headers="floripa data3 transporte">R$ 36,00</td></tr><tr><td id="data4" axis="data">28 de agosto de 2010</td><td headers="floripa data4 alimentacao">R$ 35,00</td><td headers="floripa data4 hotel">R$ 109,00</td><td headers="floripa data4 transporte">R$ 36,00</td></tr><tr><th id="subFloripa">Subtotal</th><td headers="floripa subFloripa alimentacao">R$ 131,25</td><td headers="floripa subFloripa hotel">R$ 218,00</td><td headers="floripa subFloripa transporte">R$ 72,00</td></tr><tr><th id="total">Total</th><td headers="total alimentacao">R$ 196,27</td><td headers="total hotel">R$ 442,00</td><td headers="total transporte">R$ 162,00</td></tr></table>
+</body>
+</html>
